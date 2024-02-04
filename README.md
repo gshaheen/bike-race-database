@@ -3,7 +3,7 @@
  all credit for the original data goes to https://dotwatcher.cc/ - a fantastic site to follow along with your favorite bike races alongside real time tracking and great commentary!
 
  # I am out of practice
- so I used AI. I know what is possible and what *can* be done, but it's been so long since I've sat down with javascript, node, and the entire ecosystem.  I leverage chatGPT (3.5) to generate a couple of things to get the data I wanted:
+ so I used AI. I know what is possible and what *can* be done, but it's been so long since I've sat down with javascript, node, and the entire ecosystem.  I used chatGPT (3.5) to generate a couple of things to get the data I wanted:
 
  - linkfetch - get all the links from a page
  - gettabledatamultipleurls2 - (I know great name!) after a few prompt iterations (also in this repo), this is the script that pulls all the table data from a list of URLs in urls.txt and then dumps it into a csv. It also prepends each row with the title of the page from which that row was pulled, so we can, in this case, identify which race it is.
