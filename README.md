@@ -9,4 +9,4 @@
  - linkfetch - get all the links from a page
  - gettabledatamultipleurls2 - (I know great name!) after a few prompt iterations (also in this repo), this is the script that pulls all the table data from a list of URLs in urls.txt and then dumps it into a csv. It also prepends each row with the title of the page from which that row was pulled, so we can, in this case, identify which race it is.
 
-I then did a little manual clean up to get where I wanted to be - a spreadsheet with 13,426 rows of results from 289 unique races.
+I then did a little manual clean up to get where I wanted to be - a spreadsheet with 18,226 rows of results from 289 unique races.
