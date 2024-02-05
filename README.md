@@ -10,3 +10,10 @@
  - gettabledatamultipleurls2 - (I know great name!) after a few prompt iterations (also in this repo), this is the script that pulls all the table data from a list of URLs in urls.txt and then dumps it into a csv. It also prepends each row with the title of the page from which that row was pulled, so we can, in this case, identify which race it is.
 
 I then did a little manual clean up to get where I wanted to be - a spreadsheet with 18,226 rows of results from 289 unique races.
+
+Some additional work where AI helped:
+- I needed to format the days/hours/minutes format (for example 15d 5h 25m) to pure minutes so I can do some calculation on it. Turns out that is not a straightforward formula, in the end, this is what works:
+
+`=IFERROR(VALUE(LEFT(K2, FIND("d", K2) - 1)) * 24 * 60 + VALUE(MID(K2, FIND(" ", K2) + 1, FIND("h", K2) - FIND(" ", K2) - 1)) * 60 + VALUE(MID(K2, FIND(" ", K2, FIND(" ", K2) + 1) + 1, FIND("m", K2) - FIND(" ", K2, FIND(" ", K2) + 1) - 1)), "")`
+
+Amazing time saver, writing that all myself would've likely taken hours.
