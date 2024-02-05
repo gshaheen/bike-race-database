@@ -1,6 +1,6 @@
 # bike race database
- some light analysis of bikepacking races
- all credit for the original data goes to https://dotwatcher.cc/ - a fantastic site to follow along with your favorite bike races alongside real time tracking and great commentary!
+## some light analysis of bikepacking races
+ all credit for the original data goes to https://dotwatcher.cc/ - a fantastic site to follow along with your favorite bike races alongside real time tracking and great commentary!  
  rather than bug the lovely and busy folks over at dotwatcher for their data, I decided to see if I could just get it all myself off their site without the effort of copy/pasting table data from hundreds of different results pages.
 
  # I am out of practice
