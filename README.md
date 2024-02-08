@@ -79,7 +79,7 @@ So without further ado:
 
 # I'm sure there are a ton more fun things we can explore in this data
 
-So here is the Google Sheet: https://docs.google.com/spreadsheets/d/1vDRA_TbIlJr4IyVLpnNMXuvds59qO9mQAmwfzW48INE/edit#gid=551761616
+***[So here is the Google Sheet with the full data!](https://docs.google.com/spreadsheets/d/1vDRA_TbIlJr4IyVLpnNMXuvds59qO9mQAmwfzW48INE/edit#gid=551761616)***
 
 Feel free to copy it and fiddle around with the data as you like, I just wanted to share this all with the community.  Would love to see what everyone does with this stuff!
 
