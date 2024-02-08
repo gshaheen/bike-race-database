@@ -9,8 +9,8 @@
  
  I know what is possible and what *can* be done, but it's been awhile since I've sat down with javascript, node, and the entire ecosystem.  I used chatGPT (3.5) to generate a couple of things to get the data I wanted:
 
- - *linkfetch.js* - get all the links from a page
- - *gettabledatamultipleurls2.js* - (I know great name!) after a few prompt iterations (also in this repo), this is the script that pulls all the table data from a list of URLs in urls.txt and then dumps it into a csv. It also prepends each row with the title of the page from which that row was pulled, so we can, in this case, identify which race it is.
+ - [*linkfetch.js*](linkfetch.js) - get all the links from a page
+ - [*gettabledatamultipleurls2.js*](gettabledatamultipleurls2.js) - (I know great name!) after a few prompt iterations (also in this repo), this is the script that pulls all the table data from a list of URLs in urls.txt and then dumps it into a csv. It also prepends each row with the title of the page from which that row was pulled, so we can, in this case, identify which race it is.
 
  All said and done, 115 lines of code I didn't have to write. Not too shabby.
 
