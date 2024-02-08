@@ -25,9 +25,64 @@ Some additional work where AI helped:
 
 `=IFERROR(VALUE(LEFT(K2, FIND("d", K2) - 1)) * 24 * 60 + VALUE(MID(K2, FIND(" ", K2) + 1, FIND("h", K2) - FIND(" ", K2) - 1)) * 60 + VALUE(MID(K2, FIND(" ", K2, FIND(" ", K2) + 1) + 1, FIND("m", K2) - FIND(" ", K2, FIND(" ", K2) + 1) - 1)), "")`
 
-Amazing time saver, writing that all myself would've likely taken hours.
+***Amazing*** time saver, writing that all myself would've likely taken hours.
 
 From here, I threw in some additional data about the races - length (both km and mi), and elevation (both km and mi).  After these are added we can easily create charts, graphs, etc using standard spreadsheet functionality.
 
 ## The Data
 What this whole exercise was about to begin with! I simply wanted to see a few fun things.
+
+>***It's important to note that this data is likely not totally complete nor totally accurate, so please take the following with the appropriate sized grain of salt.***
+
+- Number of Riders Year over Year (gauge of popularity)
+- Number of Races Year over Year (yet another gauge of popularity)
+- Top 10 Races by Number of Riders
+- Top 10 Races by Distance (2024)
+- Top 10 Races by Average Finish Time
+- Top 10 Riders by Wins (Podium Positions - placing 1,2,3)
+- Top 10 Riders by Most Time in Saddle (who spends the most time racing regardless of winning or not?)
+- Top 10 Riders by Race Participation
+
+So without further ado:
+
+### Number of Riders Year over Year (gauge of popularity)
+
+![Unique Riders Year over Year](<Unique Riders Year over Year.png>)
+
+### Number of Races Year over Year (yet another gauge of popularity)
+
+![Races Year over Year](<Races Year over Year.png>)
+
+### Top 10 Races by Number of Riders
+
+![Top 10 Events by Riders](<Top 10 Events by Riders.png>)
+
+### Top 10 Races by Distance (2024)
+
+![Top 10 Races by Distance](<Top 10 Races by Distance.png>)
+
+### Top 10 Races by Average Finish Time
+
+![Top 10 Races by Average Finish Time](<Top 10 Races by Average Finish Time.png>)
+
+### Top 10 Riders by Wins (Podium Positions - placing 1,2,3)
+
+![Top 10 Riders by Wins (Podium Position 1st, 2nd, or 3rd)](<Top 10 Riders by Wins (Podium Position 1st, 2nd, or 3rd).png>)
+
+### Top 10 Riders by Most Time in Saddle (who spends the most time racing regardless of winning or not?)
+
+![Top 10 Riders by Most Minutes in Saddle](<Top 10 Riders by Most Minutes in Saddle.png>)
+
+### Top 10 Riders by Race Participation
+
+![Top 10 Riders by Race Participation](<Top 10 Riders by Race Participation.png>)
+
+# I'm sure there are a ton more fun things we can explore in this data
+
+So here is the Google Sheet: https://docs.google.com/spreadsheets/d/1vDRA_TbIlJr4IyVLpnNMXuvds59qO9mQAmwfzW48INE/edit#gid=551761616
+
+Feel free to copy it and fiddle around with the data as you like, I just wanted to share this all with the community.  Would love to see what everyone does with this stuff!
+
+Cheers :beers: ,
+
+George
